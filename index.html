@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Swappy's Restaurant</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,562;0,600;0,700;1,400;1,500;1,562;1,600;1,700&display=swap" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body>
+	<header id="header-nav">
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">
+					<img  src="logo.png" width="50" height="50" alt="">
+				</a>
+
+				<div>
+					<a class="nav-link" href="#"><h1>Steam</h1> <span class="sr-only">(current)</span></a>
+				</div>
+
+
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse  justify-content-end" id="navbarSupportedContent">
+					<ul id="nav-list" class="navbar-nav ">
+						<li class="nav-item">
+							<a class="nav-link" href="menu-categories.html">
+								<span class="fa fa-cutlery" aria-hidden="true"></span><br
+								class="d-none d-sm-block">Menu
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">
+								<span class="fa fa-info" aria-hidden="true"></span><br
+								class="d-none d-sm-block">About
+							</a>
+						</li>
+						<li class="nav-item" >
+							<a class="nav-link" href="#">
+								<span class="fa fa-certificate" aria-hidden="true"></span><br
+								class="d-none d-sm-block">Awards
+							</a>
+						</li>
+						<li class="nav-item d-none d-lg-block" id="phone" >
+							<a class="nav-link" href="tel:722-108-5550">
+								<span >722-108-5550</span></a>
+								<div >*We Deliver</div>
+							</li>
+						</ul>
+
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<div class="container">
+			<div class="jumbotron">
+				<img src="main_image.jpeg"  alt="picture of restaurant" class="img-fluid d-block d-sm-none">
+			</div>
+
+			<div class="row" id="home-tiles">
+				<div class="col-md-4 col-sm-6 col-xs-12">
+					<a href="menu-categories.html"><div id="menu-tile"><span>Menu</span></div></a>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xs-12">
+					<a href="single-catgories.html"><div id="specials-tile"><span>Specials</span></div></a>
+				</div>
+				<div class="col-md-4 col-sm-12 col-xs-12">
+					<a href="https://goo.gl/maps/T91L5zWsjKuWn3A76" target="_blank">
+						<div id="map-tile">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.2153229665473!2d75.80589091362701!3d26.896660667258978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db69f8cbd539f%3A0x5b27381ae4e7e336!2sSteam!5e0!3m2!1sen!2sin!4v1592328358036!5m2!1sen!2sin" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+							<span>Map</span>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<footer class="page-footer font-small pt-4" id="footer">
+			<div class="container">
+				<div class="row">
+					<section id="hours" class="col-sm-4">
+						<span>Hours:</span><br>
+						Sun-Thurs: 11:15am - 10:00pm<br>
+						Fri: 11:15am - 2:30pm<br>
+						Saturday Closed
+                      <hr class="d-block d-sm-none">
+
+					</section>
+					<section id="address" class="col-sm-4">
+						<span>Address:</span><br>
+						Bhawani Singh Rd, <br>
+						Rambagh, Jaipur,<br>
+					 Rajasthan 302005
+					 <p>Delivery area within 5 km with minimum order of Rs 1000. Delivery charge is Rs 100.</p>
+					 <hr class="d-block d-sm-none">
+					</section>
+					<section id="testimonials" class="col-sm-4">
+						<p>"Ambience. Food. Atmosphere. Service. Staff. Everything is perfect here."</p>
+						<p>"Must Try: Thin Crust Pizza, Sangria, Falafel Wrap, Pizza Calzone"</p>
+					</section>
+				</div>
+				<div class="text-center">&copy;Copyright 2019. The Indian Hotels Company Limited. All Rights Reserved.
+					
+				</div>
+
+
+			</div>
+
+
+		</footer>
+
+
+		<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+	</body>
+	</html>
